@@ -1,0 +1,5 @@
+$ git push -u origin main
+Username for 'https://github.com': zainaliqureshi174
+Password for 'https://zainaliqureshi174@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/zainaliqureshi174/health-risk-mlops.git/'

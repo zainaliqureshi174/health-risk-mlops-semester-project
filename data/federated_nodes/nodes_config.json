@@ -1,0 +1,32 @@
+{
+  "node_1_City_A": {
+    "city": "City_A",
+    "records": 362,
+    "illness_rate": 0.12557861729132444,
+    "filepath": "data/federated_nodes/node_1_City_A/local_data.csv"
+  },
+  "node_2_City_B": {
+    "city": "City_B",
+    "records": 363,
+    "illness_rate": 0.1360822299238721,
+    "filepath": "data/federated_nodes/node_2_City_B/local_data.csv"
+  },
+  "node_3_City_C": {
+    "city": "City_C",
+    "records": 363,
+    "illness_rate": 0.1257728803183348,
+    "filepath": "data/federated_nodes/node_3_City_C/local_data.csv"
+  },
+  "node_4_City_D": {
+    "city": "City_D",
+    "records": 363,
+    "illness_rate": 0.12842647901153748,
+    "filepath": "data/federated_nodes/node_4_City_D/local_data.csv"
+  },
+  "node_5_City_E": {
+    "city": "City_E",
+    "records": 363,
+    "illness_rate": 0.12669552669552664,
+    "filepath": "data/federated_nodes/node_5_City_E/local_data.csv"
+  }
+}
