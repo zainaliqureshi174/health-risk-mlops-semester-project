@@ -1,0 +1,14 @@
+artifact_uri: file:///home/muhammad/Desktop/MLOPS/Project/health-risk-mlops/mlruns/118086375835615042/8071c23810394ffdab8e407a89078fa2/artifacts
+end_time: 1763295091212
+entry_point_name: ''
+experiment_id: '118086375835615042'
+lifecycle_stage: active
+run_id: 8071c23810394ffdab8e407a89078fa2
+run_name: random_forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763295049296
+status: 3
+tags: []
+user_id: muhammad

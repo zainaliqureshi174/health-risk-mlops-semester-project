@@ -1,0 +1,14 @@
+artifact_uri: file:///home/muhammad/Desktop/MLOPS/Project/health-risk-mlops/mlruns/118086375835615042/4e3d83c7bce84ee59a50b78be0355f72/artifacts
+end_time: 1763295049294
+entry_point_name: ''
+experiment_id: '118086375835615042'
+lifecycle_stage: active
+run_id: 4e3d83c7bce84ee59a50b78be0355f72
+run_name: logistic_regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763295046660
+status: 3
+tags: []
+user_id: muhammad

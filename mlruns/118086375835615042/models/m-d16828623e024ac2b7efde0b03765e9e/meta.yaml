@@ -1,0 +1,10 @@
+artifact_location: file:///home/muhammad/Desktop/MLOPS/Project/health-risk-mlops/mlruns/118086375835615042/models/m-d16828623e024ac2b7efde0b03765e9e/artifacts
+creation_timestamp: 1763295087588
+experiment_id: '118086375835615042'
+last_updated_timestamp: 1763295091110
+model_id: m-d16828623e024ac2b7efde0b03765e9e
+model_type: null
+name: model
+source_run_id: 8071c23810394ffdab8e407a89078fa2
+status: 2
+status_message: null

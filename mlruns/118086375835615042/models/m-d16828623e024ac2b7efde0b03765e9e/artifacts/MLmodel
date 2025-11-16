@@ -1,0 +1,22 @@
+artifact_path: file:///home/muhammad/Desktop/MLOPS/Project/health-risk-mlops/mlruns/118086375835615042/models/m-d16828623e024ac2b7efde0b03765e9e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.17
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.4
+model_id: m-d16828623e024ac2b7efde0b03765e9e
+model_size_bytes: 613701334
+model_uuid: m-d16828623e024ac2b7efde0b03765e9e
+prompts: null
+run_id: 8071c23810394ffdab8e407a89078fa2
+utc_time_created: '2025-11-16 12:11:27.627011'
