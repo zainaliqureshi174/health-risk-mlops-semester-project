@@ -1,0 +1,52 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.8712718451954352,
+    "roc_auc": 0.5337036655399089
+  },
+  "random_forest": {
+    "accuracy": 0.8700314240035283,
+    "roc_auc": 0.5088098334346821,
+    "feature_importance": [
+      {
+        "feature": "heart_rate_avg",
+        "importance": 0.1860385347320068
+      },
+      {
+        "feature": "sleep_hours",
+        "importance": 0.1855976704020501
+      },
+      {
+        "feature": "spo2",
+        "importance": 0.1725083899160993
+      },
+      {
+        "feature": "stress_level",
+        "importance": 0.06919432464304588
+      },
+      {
+        "feature": "humidity",
+        "importance": 0.06489002162820244
+      },
+      {
+        "feature": "temperature",
+        "importance": 0.06483568920845541
+      },
+      {
+        "feature": "pm10",
+        "importance": 0.06452829914082339
+      },
+      {
+        "feature": "precipitation",
+        "importance": 0.0643040886143823
+      },
+      {
+        "feature": "pm25",
+        "importance": 0.06407610940174485
+      },
+      {
+        "feature": "aqi",
+        "importance": 0.06402687231318949
+      }
+    ]
+  }
+}
