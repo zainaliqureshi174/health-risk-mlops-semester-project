@@ -2,3 +2,6 @@ data/raw/*.csv
 models/*.pkl
 mlruns/
 models/*.pkl
+Screenshots.zip
+Slides Content.txt
+*.zip
