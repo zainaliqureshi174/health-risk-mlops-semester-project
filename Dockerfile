@@ -8,4 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY src/ ./src/
 COPY models/ ./models/
 
-CMD ["uvicorn", "src.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+ENV PYTHONPATH=/app
+
+CMD ["uvicorn", "src.mlops.api_server:app", "--host", "0.0.0.0", "--port", "8000"]
