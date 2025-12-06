@@ -68,7 +68,20 @@ pipeline {
                 '''
             }
         }
-        
+        stage('Generate Missing Data') {
+	    steps {
+		echo '📊 Checking and generating missing data files...'
+		sh '''
+		    . venv/bin/activate
+		    if [ ! -f data/raw/wearable_health.csv ]; then
+		        echo "Generating wearable_health.csv..."
+		        python src/data_ingestion/collect_data.py
+		    else
+		        echo "Data files already exist"
+		    fi
+		'''
+	    }
+	}
         stage('Train Models') {
             steps {
                 echo '🤖 Training machine learning models...'
